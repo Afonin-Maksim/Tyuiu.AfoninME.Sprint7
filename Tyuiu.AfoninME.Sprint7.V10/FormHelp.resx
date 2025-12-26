@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="labelHelpText_AME.Text" xml:space="preserve">
+    <value>Руководство пользователя
+
+1.  Нажмите «Открыть» и выберите CSV‑файл заказов.
+2.  Используйте поле «Поиск» для фильтрации данных.
+3.  Кнопка «Сортировка» сортирует заказы по сумме.
+4.  Кнопка «Статистика» показывает количество, сумму, минимум, максимум и среднее.
+5.  Кнопка «График» строит гистограмму сумм заказов по месяцам.
+6.  Редактируйте значения прямо в таблице.
+7.  Для сохранения изменений нажмите «Сохранить».
+8.  Все данные хранятся в CSV‑файле.
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonClose_AME.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAGlUlEQVRYR51WbWyT1xk9LPMY
+        WleVH3Qa1RI60mkVazdVG6pWmo7iQAhUqjSptNPo9iMdm/YRCQrdSkq1NiRAw5LUie13cSljSd3SlpiP
+        ppSOlimxk9j5sElwvjwCm4CqSyDTpi5ooDOda7/FcRJweaSj1773ec557r3P/QCytAd+g1sLy7GxsAIx
+        ZyVoo3AHuHInuGoXWLQTsdUV2LisFLdmxt+szfnBb7F4RQX61lSBO1oe5BvdP2bo7GYGR0v53tBPGTj5
+        KP2R5fS2fodbD3yFT736Ra6tAot3oe/hZ7FYHJmk2VqOczssCR85tZGXrr7Ns5O1TEz+nonLWzky+TsO
+        frKFp/69if3/2sSesV/x/dOPcV/4uyxvuYU/2wuu3Q0W74QlrkzyG5nj4Qqcf/bt+/hfnuDH9PHM1W0M
+        fvQoD8TvYkN7Dl0fgnUnUvgr2BBycH/06zyaKOSJMz/hK6F7uGk/+Hg9WPwSzoszU2Q2cywvx7nGzif5
+        H77Df1zdzsjY42wIfc4IuVtBTyvobZsOj9AK+to/z8PxQgb613Dbobks2QOu3oVz2SThcFbgwivBH/LC
+        5T0cvfIcD498iy4JSyQIWqEbQ36eIOjvzefRoXV88Z1bWPKqqYsL10six/kCfKVNd3JkooZnrpTxwMBd
+        rNOIRdz+2aG4pt5cvju0js8fmmuWo2g7fDPVxJylJbhbBRc8s5mJy9t4eOQe1mlKb0LcmwbF+6P5bO5b
+        Y2rikd2gtDJ3xxcKKxCvPV7A2PhmhseeSIqLsCN7eDuSMXVBsC6U/G23HRpw0gou4YY/gcU7EJfmp+qL
+        lmGhRn9seD2HP3mGDZGcpHhn9vB2gu52sKYNPDtxmLELVXxZSSixTtAXcZilKAvMMbNw5zIstPVzlm9F
+        2Ub/Hfzg9Hq2nn+E9co8DFpZQr7uDrA6CCbGX6dtTb15rFcCYdATBgPxAtZ+sIhP/hFcUYYyuxbmrdyO
+        ePmRbzB0voRvxhcbskyR2TBV3P+puGzyf2N0aTCaoTDYGMtlU3cBf7EPLKo0yzBPCcwv2gW6PvwmoxdL
+        6et2mGytyDV4U0hvs9vdnWB1CExcnCouG73UTJdmIOXr63KwZegxPr0fLK4Cpa0EFiiB6r/ksXe8lPUa
+        VRdopeCJgHXhJPTb7tPXHQar22cWV1tNO+hWsjZXF3gssZ7PvGVORyWwQAncrgQqWm5j5ONfmgBvN2h1
+        JwNeDoOxj6pMYdV0JAnVr291x+zi6kvnMnzd0xK43SSw+iXwuUAO289toFuj606iPgI29eelEb/OP3SA
+        rjDM97OIXzcB/dnyJtj29xLj5O1JwhUBJ6+MTREYufhnVoZgvpmWuORntbajBtEDWhnw9MyWQBVMYbw/
+        8gQbog56e2Hg6gJHJ5ozdWY0I64doQH0glYG1OaLTStCk8CCVeUY/vk+0N/1IJv6c+mNglYUdPeCNREY
+        8uuZEdeOkFAqNhNqb+y/tg2laRfh/Ad+jd06HGqPL+LBwQJ60oLcPTDkiYmZk1C7EdeyzSCcnkDzYAFr
+        jicPImna23De/Dzcp+NRx+TRwXX09TnojYFWDOarkVV3TU/CiGs7auQp/5mgPnG2DF47iqVpH0Q6Du8o
+        KsffNuyFuTAODTnpOQlaKXhPgu4oWN0Dnp54y4jrq/9qV7/tOxPEFRhy0qvLaC8oLWmmX8u3fW0p1ioz
+        XZm6Ov3xfHr6QCsFbx/oPgm6omBtNPnVf7XbPjNBHK/F83mgb40pPmlIS5q2uExXY95DWxDQo+H5g3P5
+        7uA6NsZzpyRhJ6IR30jY9hWHpl6c4paGtKZcx6nHwZcB3FtUiTG94fSMUhL+gXx6ToHeftDKEvL1ngJf
+        G8g34uZJtsdcQGPSSGlNe65rPbQv719ViX8qQM8oTd3BYSd9Aw5640liwcqA3S4f+QaGnSZWHOISp7hT
+        GtOeZLbpwfhVAN8vqsS4pkzrZrUtMSMJDBewcTDXCHgGMAVqU1/zcIHx9bYtMbHmHViJcXGmuGd9lNpm
+        J3H/Q0/jiIpGlavtoz3c1JUUODaynu+lQW3qk498FaNYcaRGnpW4bXLUVN278Nv40aoXMSoyHSA6xTQy
+        nefpUJv65CNfxSg2tebiylrcNq2TimURgO99aQHWLn0K1soXcFrnuC6TKagC1Scf+SomFSuOWdf8RqZK
+        1XbRntXBoee0pnM5gBUZUJv65CNfxSh2WrXfrGkUOjp1fusS0bSmQ23qk0/WI/4/q55OEc3M2t4AAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+</root>
